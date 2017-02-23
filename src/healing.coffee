@@ -5,11 +5,11 @@
 #   None
 #
 # Commands:
-#   hubot hello - responds 'World!'
+#   hubot tired - responds 'World!'
 #
 # Author:
 #   bouzuya <m@bouzuya.net>
 
 module.exports = (robot) ->
-  robot.respond /疲れた/i, (msg) ->
+  robot.respond /tired/i, (msg) ->
     msg.send 'お疲れさま'
