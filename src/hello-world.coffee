@@ -12,4 +12,4 @@
 
 module.exports = (robot) ->
   robot.respond /hello/i, (msg) ->
-    msg.send '‚±‚ñ‚É‚¿‚ÍI'
+    msg.send '‚±‚ñ‚É‚¿‚ÍIUTF-8‚É•ÏX'
