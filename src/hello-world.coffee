@@ -12,4 +12,8 @@
 
 module.exports = (robot) ->
   robot.respond /hello/i, (msg) ->
-   msg.send 'こんにちは！UTF-8に変更'
+  msg.send 'こんにちは！UTF-8に変更'
+    
+    module.exports = (robot) ->
+  robot.respond /tired/i, (msg) ->
+  msg.send 'おつかれさま'
