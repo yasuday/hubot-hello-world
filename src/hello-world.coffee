@@ -1,4 +1,4 @@
-# Description
+﻿# Description
 #   A Hubot script that responds 'World!'
 #
 # Configuration:
@@ -12,8 +12,4 @@
 
 module.exports = (robot) ->
   robot.respond /hello/i, (msg) ->
-<<<<<<< HEAD
-    msg.send '����ɂ��́IUTF-8�ɕύX'
-=======
-    msg.send 'こんにちは'
->>>>>>> e494a3b631085c43858552cff7ca765e08bb67d0
+   msg.send 'こんにちは！UTF-8に変更'
